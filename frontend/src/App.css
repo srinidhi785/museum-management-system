@@ -1,0 +1,340 @@
+/* ===========================
+   Reset
+=========================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===========================
+   Full Screen
+=========================== */
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ===========================
+   Background
+=========================== */
+
+body {
+  background: linear-gradient(135deg, #0f172a, #2563eb);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ===========================
+   Login Container
+=========================== */
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2f7f, #2d5be3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ===========================
+   Login Box
+=========================== */
+.login-box {
+  width: 95%;
+  max-width: 1200px;
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 40px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18);
+  text-align: center;
+}
+
+/* ===========================
+   Headings
+=========================== */
+.login-box h1 {
+  text-align: center;
+  color: #2563eb;
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.login-box h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 1.2;
+}
+/* ===========================
+   Inputs
+=========================== */
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  font-size: 16px;
+}
+
+.login-box input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* ===========================
+   Login Buttons
+=========================== */
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+
+  background: #2563eb;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 16px;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background: #1d4ed8;
+}
+
+/* ===========================
+   Artists Page
+=========================== */
+
+.artist-page {
+  width: 95%;
+  max-width: 1400px;
+  margin: 30px auto;
+
+  background: #ffffff;
+
+  padding: 35px;
+
+  border-radius: 16px;
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+
+  overflow-x: auto;
+}
+
+.artist-page h1 {
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+/* ===========================
+   Buttons
+=========================== */
+.artist-page button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  color: white;
+  background: #2563eb;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.2);
+}
+
+.artist-page button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.3);
+}
+
+.artist-page button:active {
+  transform: scale(0.97);
+}
+
+.artist-page button:hover {
+  background: #1d4ed8;
+}
+
+.artist-page button:hover {
+  background: #1d4ed8;
+}
+
+/* ===========================
+   Table
+=========================== */
+
+.artist-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.artist-table th {
+  background: #2563eb;
+  color: white;
+
+  padding: 14px;
+
+  text-align: left;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  border: none;
+}
+
+.artist-table td {
+  padding: 14px;
+
+  border-bottom: 1px solid #e5e7eb;
+
+  color: #374151;
+
+  font-size: 14px;
+}
+
+
+.artist-table tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.artist-table tbody tr:hover {
+  background: #dbeafe;
+  transition: 0.2s;
+}
+
+/* ===========================
+   Add Artist Form
+=========================== */
+.artist-form {
+  margin-top: 30px;
+  padding: 25px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+.artist-form h2 {
+  color: #2563eb;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.artist-form input,
+.artist-form select {
+  width: 100%;
+
+  padding: 12px;
+
+  margin-bottom: 16px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+
+  font-size: 15px;
+
+  transition: all 0.3s ease;
+}
+
+.artist-form input:focus,
+.artist-form select:focus {
+  outline: none;
+
+  border-color: #2563eb;
+
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+.artist-form button {
+  margin-right: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0f2f7f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login-box h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+/* ===========================
+   Dashboard Header
+=========================== */
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.dashboard-subtitle {
+  font-size: 20px;
+  color: #6b7280;
+  margin: 12px 0 35px;
+}
+
+.welcome-section {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 25px;
+  margin: 0 auto 35px;
+  max-width: 700px;
+}
+
+.welcome-section h2 {
+  margin: 0;
+  font-size: 32px;
+  color: #1f2937;
+}
+
+.welcome-section p {
+  margin-top: 12px;
+  color: #6b7280;
+  font-size: 18px;
+}
+
